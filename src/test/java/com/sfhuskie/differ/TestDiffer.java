@@ -1,4 +1,6 @@
 package com.sfhuskie.differ;
+import static org.junit.Assert.assertEquals;
+
 import java.io.IOException;
 
 /*
@@ -26,11 +28,11 @@ public class TestDiffer {
     @Test
     public void testSymbolsNotChanged() throws Exception {
         Differ d = new Differ("src/test/resources/original", "src/test/resources/whitespacechanged");
-        d.diff();
+        assertEquals(0, d.diff());
     }
     @Test
     public void testSymbolsChanged() throws Exception {
         Differ d = new Differ("src/test/resources/original", "src/test/resources/symbolschanged");
-        d.diff();
+        assertEquals(2, d.diff());
     }
 }
