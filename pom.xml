@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sfhuskie.tools</groupId>
 	<artifactId>file-symbol-differ</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>whitespace-formatter-maven-plugin</name>
     <description>tab and space formatter</description>
     <url>https://github.com/steventongsf/file-symbol-differ</url>
@@ -34,7 +34,7 @@
 		<connection>scm:git:git://github.com/steventongsf/file-symbol-differ.git</connection>
 		<developerConnection>scm:git:git@github.com:steventongsf/file-symbol-differ.git</developerConnection>
 		<url>https://github.com/steventongsf/file-symbol-differ</url>
-		<tag>HEAD</tag>
+		<tag>file-symbol-differ-1.0</tag>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
