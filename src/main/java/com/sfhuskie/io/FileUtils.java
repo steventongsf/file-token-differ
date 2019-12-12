@@ -25,6 +25,6 @@ public class FileUtils {
         return new String(Files.readAllBytes(Paths.get(fileName)));
     }
     public static String removeAllTabsAndSpaces(String string) {
-        return string.replaceAll("\t", "").replaceAll(" ", "");
+        return string.replaceAll("\t", "").replaceAll(" ", "").replaceAll("\n","").replaceAll("\r","");
     }
 }
