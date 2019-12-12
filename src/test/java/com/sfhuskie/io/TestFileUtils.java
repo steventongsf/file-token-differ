@@ -40,7 +40,7 @@ public class TestFileUtils {
     }
     @Test
     public void testRemoveAllWhitespaceWithNewLines() {
-        assertEquals("steven\nwas\nhere.\n",FileUtils.removeAllTabsAndSpaces("\tsteven \nwas\t \nhere. \n\t"));
+        assertEquals("stevenwashere.",FileUtils.removeAllTabsAndSpaces("\tsteven \nwas\t \nhere. \n\t"));
         
     }
     @Test
