@@ -19,3 +19,4 @@ Example:
 
 prompt> java -jar ./original-source/src/main/java ./modified-source/src/main/java
 
+Note: This validation will be re-used as an additional Mojo in the Maven plugin project https://github.com/steventongsf/whitespace-formatter-maven-plugin in an upcoming release.
